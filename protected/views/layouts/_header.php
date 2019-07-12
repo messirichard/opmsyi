@@ -64,10 +64,10 @@
           <ul class="list-inline menuuu">
             <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/index', 'lang'=>Yii::app()->language)); ?>">Home</a></li>
             <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/about', 'lang'=>Yii::app()->language)); ?>">Tentang Kami</a></li>
-            <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/produk', 'lang'=>Yii::app()->language)); ?>">layanan</a></li>
-            <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/quality', 'lang'=>Yii::app()->language)); ?>">hubungan investor</a></li>
-            <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/blog', 'lang'=>Yii::app()->language)); ?>">karir</a></li>
-            <li class="list-inline-item menu paling-kanan"><a href="<?php echo CHtml::normalizeUrl(array('/home/kontak', 'lang'=>Yii::app()->language)); ?>">Hubungi Kami</a></li>
+            <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/layanan', 'lang'=>Yii::app()->language)); ?>">layanan</a></li>
+            <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/hubinvest', 'lang'=>Yii::app()->language)); ?>">hubungan investor</a></li>
+            <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/career', 'lang'=>Yii::app()->language)); ?>">karir</a></li>
+            <li class="list-inline-item menu paling-kanan"><a href="<?php echo CHtml::normalizeUrl(array('/home/hubungi', 'lang'=>Yii::app()->language)); ?>">Hubungi Kami</a></li>
           </ul>
         </div>
       </div>
