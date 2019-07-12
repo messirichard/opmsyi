@@ -38,25 +38,26 @@
 
 
 <header class="head <?php if ($active_menu_pg != 'home/index'): ?>insides-head<?php endif ?>">
-  <div class="prelative container cont-header mx-auto">
+  <div class="prelative container mx-auto">
     <div class="row">
-      <div class="col-md-15">
-        <div class="image"><img src="<?php echo $this->assetBaseurl; ?>DESIGN2_04.jpg" alt=""></div>
+      <div class="col-md-30">
+        <div class="image"><img src="<?php echo $this->assetBaseurl; ?>opms-logo.png" alt=""></div>
       </div>
-      <div class="col-md-45">
+      <div class="col-md-30">
+        <div class="menu-block-top">
+          <div class="click">
+            <p>opms HOTLINE<span><img src="<?php echo $this->assetBaseurl; ?>wa-atas.png" alt=""></span><a href="#">0812 3500 9900</a></p>
+          </div>
+        </div>
         <div class="menu-block-bottom">
           <ul class="list-inline">
             <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/index', 'lang'=>Yii::app()->language)); ?>">Home</a></li>
-            <li class="list-inline-item menu"><a href="#">tentang kami</a></li>
-            <li class="list-inline-item menu"><a href="#">produk</a></li>
-            <li class="list-inline-item menu"><a href="#">proses & kualitas</a></li>
-            <li class="list-inline-item menu"><a href="#">hubungi kami</a></li>
-            <li class="list-inline-item wa"><a href="#">wa <span><img src="<?php echo $this->assetBaseurl; ?>WA-Logo.png" alt="">0812 3500 8800</span></a>
-            </li>      
-            <li class="list-inline-item border-garis"><div class="garis"></div></li>      
-            <li class="list-inline-item bahasa1 active"><a href="#">indonesia</a></li>
-            <li class="list-inline-item bahasa2">-</li>
-            <li class="list-inline-item bahasa3"><a href="#">english</a></li>      
+            <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/about', 'lang'=>Yii::app()->language)); ?>">Tentang Kami</a></li>
+            <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/produk', 'lang'=>Yii::app()->language)); ?>">Produk</a></li>
+            <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/quality', 'lang'=>Yii::app()->language)); ?>">Kualitas</a></li>
+            <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/blog', 'lang'=>Yii::app()->language)); ?>">Blog & Articles</a></li>
+            <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/kerjasama', 'lang'=>Yii::app()->language)); ?>">Kerjasama</a></li>
+            <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/kontak', 'lang'=>Yii::app()->language)); ?>">Hubungi Kami</a></li>
           </ul>
         </div>
       </div>
@@ -74,22 +75,53 @@
   </ul>
 </div> -->
 
-<!-- <header class="header-mobile homepage_head">
+<section id="myAffix" class="header-affixs affix-top">
+  <!-- <div class="clear height-15"></div> -->
+  <div class="prelative container cont-header mx-auto">
+    <div class="row">
+      <div class="col-md-15 col-sm-15">
+        <div class="lgo_web_headrs_wb">
+          <a href="<?php echo CHtml::normalizeUrl(array('/home/index', 'lang'=>Yii::app()->language)); ?>">
+            <img src="<?php echo $this->assetBaseurl; ?>opms-logo.png" alt="" class="img img-fluid">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-45 col-sm-45">
+        <div class="text-right"> 
+          <div class="menu-taffix">
+            <ul class="list-inline d-inline">
+              <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/index', 'lang'=>Yii::app()->language)); ?>">Home</a></li>
+              <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/about', 'lang'=>Yii::app()->language)); ?>">Tentang Kami</a></li>
+              <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/produk', 'lang'=>Yii::app()->language)); ?>">Produk</a></li>
+              <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/quality', 'lang'=>Yii::app()->language)); ?>">Kualitas</a></li>
+              <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/blog', 'lang'=>Yii::app()->language)); ?>">Blog & Articles</a></li>
+              <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/kerjasama', 'lang'=>Yii::app()->language)); ?>">Kerjasama</a></li>
+              <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/kontak', 'lang'=>Yii::app()->language)); ?>">Hubungi Kami</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</section>
+
+<header class="header-mobile homepage_head">
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-  <a class="navbar-brand" href="<?php echo CHtml::normalizeUrl(array('/home/index', 'lang'=>Yii::app()->language)); ?>"><img src="<?php echo $this->assetBaseurl; ?>logo-header.png" alt="" class="img img-fluid"></a>
+  <a class="navbar-brand" href="<?php echo CHtml::normalizeUrl(array('/home/index', 'lang'=>Yii::app()->language)); ?>"><img src="<?php echo $this->assetBaseurl; ?>opms-logo.png" alt="" class="img img-fluid"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item"><a href="<?php echo CHtml::normalizeUrl(array('/home/index', 'lang'=>Yii::app()->language)); ?>">Home</a></li>
-      <li class="nav-item"><a href="<?php echo CHtml::normalizeUrl(array('/home/about', 'lang'=>Yii::app()->language)); ?>">About Us</a></li>
-      <li class="nav-item"><a href="<?php echo CHtml::normalizeUrl(array('/home/product', 'lang'=>Yii::app()->language)); ?>">Our Products</a></li>
-      <li class="nav-item"><a href="<?php echo CHtml::normalizeUrl(array('/home/project', 'lang'=>Yii::app()->language)); ?>">Our Projects</a></li>
-      <li class="nav-item"><a href="<?php echo CHtml::normalizeUrl(array('/home/partner', 'lang'=>Yii::app()->language)); ?>">Our Partners</a></li>
-      <li class="nav-item"><a href="<?php echo CHtml::normalizeUrl(array('/home/career', 'lang'=>Yii::app()->language)); ?>">Career</a></li>
-      <li class="nav-item"><a href="<?php echo CHtml::normalizeUrl(array('/home/contact', 'lang'=>Yii::app()->language)); ?>">Contact</a></li>      
+      <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/index', 'lang'=>Yii::app()->language)); ?>">Home</a></li>
+      <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/about', 'lang'=>Yii::app()->language)); ?>">Tentang Kami</a></li>
+      <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/produk', 'lang'=>Yii::app()->language)); ?>">Produk</a></li>
+      <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/quality', 'lang'=>Yii::app()->language)); ?>">Kualitas</a></li>
+      <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/blog', 'lang'=>Yii::app()->language)); ?>">Blog & Articles</a></li>
+      <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/kerjasama', 'lang'=>Yii::app()->language)); ?>">Kerjasama</a></li>
+      <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/kontak', 'lang'=>Yii::app()->language)); ?>">Hubungi Kami</a></li>    
       <li class="nav-item">
       <?php
       $get = $_GET; $get['lang'] = 'en';
@@ -100,7 +132,7 @@
     </ul>
   </div>
   </nav>
-</header> -->
+</header>
 
 <script type="text/javascript">
   $(function(){

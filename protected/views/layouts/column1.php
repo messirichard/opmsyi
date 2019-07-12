@@ -50,7 +50,7 @@
 
 <?php echo $content ?>
 
-<?php echo $this->renderPartial('//layouts/_footer', array()); ?>
+<?php // echo $this->renderPartial('//layouts/_footer', array()); ?>
 
 <script type="text/javascript">
     $(document).ready(function(){
