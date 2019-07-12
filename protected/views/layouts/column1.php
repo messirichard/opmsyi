@@ -21,7 +21,7 @@
         <div id="myCarousel_home" class="carousel slide" data-ride="carousel" data-interval="4500">
             <div class="carousel-inner">
                 <div class="carousel-item active home-slider-new">
-                    <img class="w-100 d-none d-sm-block" src="<?php echo $this->assetBaseurl; ?>Layer19.png" alt="" style="background-repeat: no-repeat; background-size: cover;">
+                    <img class="w-100 d-none d-sm-block" src="<?php echo $this->assetBaseurl; ?>Layer19.png" alt="" style="background-repeat: no-repeat !important; background-size: cover !important;">
                     <!-- <img class="w-100 d-block d-sm-none" src="/angkasa/asset/images/mobile-home_02.jpg" alt=""> -->
                 </div>
             </div>
