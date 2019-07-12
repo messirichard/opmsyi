@@ -43,10 +43,45 @@ h6 {
 .prelative.container.sliderrrr {
   max-width: 100%;
   padding: 0;
-  background: #232b38;
-  opacity: 0.8;
-}
+  background-color: #232b38c2;
 
+  .content {
+    padding-left: 10px;
+  }
+
+  .t1 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .t2 {
+    font-size: 25px;
+    text-align: left;
+
+  }
+
+  .t3 {
+    padding-top: 15px;
+    font-size: 12px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+  }
+
+  button {
+    font-weight: 400;
+    border: 0;
+    left: 0;
+    width: 250PX;
+    background: #e81932;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-right: 0;
+  }
+}
 .prelative.container {
   max-width: 1410px;
 }
@@ -613,24 +648,57 @@ section.home-sec-5 {
   }
 }
 
-
 section.cover-insides {
   display: table;
   vertical-align: middle;
   height: 100%;
-  min-height: 705px;
+  min-height: 530px;
   width: 100%;
-  // background-color: rgba(76, 175, 80, 0.3);
   background: url('../images/header2.jpg') center center;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 
-  // background-color: #18965e;
-  // opacity: 0.35;
-  .prelative.container {
-    vertical-align: middle;
-    height: 100%;
+
+  .begrond {
+    // margin-top: 400px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #232b38c2;
+    height: 140px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+    .prelative.container {
+      vertical-align: middle;
+      height: 100%;
+
+      h1.teks-cover {
+        opacity: 1;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 700;
+      }
+
+      .teks {
+        opacity: 1;
+        padding-top: 10px;
+        font-size: 25px;
+        color: #ffffff;
+
+
+      }
+    }
+
+
   }
+
+
+
 }
 
 section.hubungi-sec-1 {

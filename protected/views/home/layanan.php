@@ -1,15 +1,16 @@
 <section class="cover-insides">
-    <div class="prelative container">
-        <div class="container2 mx-auto">
-            <div class="row">
-                <div class="col-md-60">
-                    <button class="profil mx-auto text-center ">Hubungi Kami</button>
+    <div class="begrond">
+        <div class="prelative container">
+                <div class="teks">
+                    <div class="row">
+                        <div class="col-md-60">
+                            <h1 class="teks-cover">Tentang Kami</h1>
+                        </div>
+                        <div class="col-md-60 ">
+                            <div class="teks">Sebuah wajah baru di dunia perdagangan besi bekas di Indonesia</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-60 mx-auto pt-3">
-                    <h2 class="text-center">Peluang Untuk Menuju Sukses <br>
-                    Ada Di Depan Anda!</h2>
-                </div>
-            </div>
         </div>
     </div>
 </section>

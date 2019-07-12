@@ -29,10 +29,11 @@
                 <div class="prelative container sliderrrr">
                     <div class="bxsl_tx_fcs">
                         <div class="row no-gutters">
-                            <div class="col-md-60">
-                                <h1>PT. angkasaraya steel</h1>
-                                <h5>Perusahaan Manufaktur Pipa Besi Dengan Keunggulan</h5>
-                                <h5>Konsistensi dan Material Terbaik di Indonesia.</h5>
+                            <div class="content col-md-60">
+                                <p class="t1">PT. OPTIMA PRIMA METAL SINERGI</p>
+                                <p class="t2">Perusahaan jual beli besi dan kapal bekas terpercaya - <b><i>Terpercaya!</i></b></p>
+                                <p class="t3">melayani pasokan besi di surabaya, jakarta, semarang, hingga seluruh pelosok di indonesia.</p>
+                                <button class="form-control">PELAJARI LEBIH LANJUT</button>
                             </div>
                         </div>
                     </div>
