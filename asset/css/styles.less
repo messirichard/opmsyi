@@ -40,6 +40,22 @@ h6 {
   margin-bottom: 0;
 }
 
+.button-red {
+  font-weight: 400;
+  border: 0;
+  left: 0;
+  width: 250PX;
+  background: #e81932;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-right: 0;
+
+  a {
+    color: #ffffff;
+
+  }
+
+}
 
 .prelative.container.sliderrrr {
   max-width: 100%;
@@ -83,11 +99,12 @@ h6 {
     text-transform: uppercase;
     margin-top: 15px;
     margin-right: 0;
+
   }
 }
 
 .prelative.container {
-  max-width: 1410px;
+  max-width: 1420px;
 }
 
 .prelative.container2 {
@@ -445,12 +462,15 @@ header.header-mobile.homepage_head ul.navbar-nav li a {
 }
 
 .header-affixs.affix-top {
+  background-color: #082750;
   top: -1000px;
   position: fixed;
   visibility: collapse;
 }
 
 .header-affixs.affix {
+  background-color: #082750;
+
   top: 0px;
   left: 0px;
   position: fixed;
@@ -495,7 +515,7 @@ header.header-mobile.homepage_head ul.navbar-nav li a {
 .menu-taffix ul li a {
   font-size: 13px;
   font-weight: 700;
-  color: #555555;
+  color: #ffff;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -617,7 +637,7 @@ section.home-sec-1 {
       font-size: 18px;
       font-weight: 700;
       text-align: center;
-      margin-bottom: 20px;
+      margin-bottom: 15px;
     }
 
     .subtitle {
@@ -682,6 +702,13 @@ section.home-sec-2 {
       font-weight: 700;
       color: #6c6c6c;
     }
+  }
+
+  .button {
+    padding-top: 60px;
+    padding-bottom: 115px;
+    margin: 0 auto;
+    display: block;
   }
 
 }
@@ -836,6 +863,12 @@ section.home-sec-5 {
     text-align: center;
     font-size: 12px;
     color: #9ba6ac;
+
+    a.markdesign {
+      text-decoration: none;
+      color: #9ba6ac;
+
+    }
   }
 }
 
@@ -912,24 +945,32 @@ section.hubungi-sec-1 {
 
   .alamat {
     p {
+      line-height: 2;
       max-width: 300px;
       font-size: 16px;
       color: #7c7c7c;
     }
 
 
-    .teksmap {
+    .teksmap a {
       text-decoration: underline;
       font-weight: 700;
-      padding-bottom: 40px;
+      color: #515151;
     }
   }
 
   .kontak {
+    margin-top: 30px;
     margin-bottom: 300px;
 
     table {
+      tr {
+        padding-bottom: 20px;
+      }
+
       td {
+        padding-left: 0;
+        margin-bottom: 10px;
         font-weight: 300;
         color: #7c7c7c;
       }
@@ -1002,6 +1043,8 @@ section.hubungi-sec-1 {
 
 // hubinvestor css
 section.hub-investor-sec-1 {
+  margin-bottom: 130px;
+
   .box-content-dalam {
     margin-top: 120px;
 
@@ -1014,12 +1057,15 @@ section.hub-investor-sec-1 {
       font-size: 18px;
       font-weight: 700;
       color: #082750;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
 
-    .lebih {
+    .lebih a {
+      color: #595959;
+      text-decoration: none;
       font-size: 16px;
       font-style: italic;
+      font-weight: 400;
 
       h5 {
         font-family: @noto;
@@ -1034,28 +1080,30 @@ section.about-sec-1 {
   padding-bottom: 50px;
 
   .box-content-left {
-    max-width: 670px;
 
     .title {
       font-size: 16px;
       color: #e81932;
       font-weight: 700;
-      padding-bottom: 20px;
-      font-family: @noto;
+      padding-bottom: 15px;
+      font-family: @lato;
     }
 
     .caption {
-      padding-bottom: 50px;
-      font-style: 20px;
-      font-weight: 700;
+      padding-bottom: 45px;
+      font-size: 20px;
+      font-weight: 400;
+      color: #595959;
       font-style: italic;
-      font-family: @noto;
+      font-family: @lato;
     }
 
     .content {
+      line-height: 1.3;
+      max-width: 650px;
+
       h5 {
         text-transform: uppercase;
-
         font-size: 21px;
         font-weight: 700;
         color: #082750;
@@ -1065,6 +1113,8 @@ section.about-sec-1 {
       }
 
       p {
+        color: #515151;
+        font-weight: 300;
         font-style: 16px;
         padding-bottom: 20px;
         font-family: @lato;
@@ -1073,7 +1123,11 @@ section.about-sec-1 {
   }
 
   .box-content-right {
-    .image {}
+    .image {
+      img {
+        width: 100%;
+      }
+    }
   }
 }
 
@@ -1081,10 +1135,16 @@ section.about-sec-2 {
   padding-bottom: 130px;
 
   .box-content-left {
-    .image {}
+    .image {
+      img {
+        width: 100%;
+      }
+    }
   }
 
   .box-content-right {
+    padding-top: 60px;
+
     .content {
       h5 {
         font-size: 21px;
@@ -1105,24 +1165,23 @@ section.about-sec-2 {
 
 section.about-sec-3 {
   background-color: #e9ecf2;
-
   padding-top: 340px;
   padding-bottom: 130px;
 
-  .box-content-left {
-    max-width: 650px;
+  .title-atas {
+    font-size: 16px;
+    color: #e81932;
+    font-weight: 700;
+    padding-bottom: 50px;
+    font-family: @lato;
+  }
 
-    .title {
-      font-size: 16px;
-      color: #e81932;
-      font-weight: 700;
-      padding-bottom: 30px;
-      font-family: @noto;
-    }
+  .box-content-left {
+    max-width: 640px;
 
     .content {
       h5 {
-        font-size: 21px;
+        font-size: 20px;
         font-weight: 700;
         color: #082750;
         padding-bottom: 30px;
@@ -1150,6 +1209,7 @@ section.about-sec-3 {
       }
 
       p {
+        font-weight: 300;
         font-size: 20px;
         padding-bottom: 50px;
         font-family: @lato;
@@ -1157,6 +1217,8 @@ section.about-sec-3 {
 
       li {
         font-size: 16px;
+        font-weight: 300;
+
         font-family: @lato;
       }
     }
@@ -1176,8 +1238,10 @@ section.about-sec-4 {
     }
 
     .caption {
+      color: #595959;
       font-size: 20px;
-      font-weight: 700;
+      font-weight: 400;
+      font-style: italic;
     }
   }
 
@@ -1189,12 +1253,14 @@ section.about-sec-4 {
     }
 
     .nama {
+      color: #515151;
       padding-bottom: 10px;
       font-weight: 700;
       font-size: 16px;
     }
 
     .jabatan {
+      color: #515151;
       font-size: 16px;
     }
   }
@@ -1208,21 +1274,23 @@ section.layanan-sec-1 {
     color: #e81932;
     font-size: 16px;
     font-weight: bold;
-    font-family: @noto;
+    font-family: @lato;
+    text-transform: uppercase;
   }
 
   .konten {
-    padding-top: 50px;
-    font-family: @noto;
+    padding-top: 45px;
+    font-family: @lato;
 
     h5 {
       color: #082750;
       font-size: 21px;
       font-weight: bold;
+      padding-bottom: 5px;
     }
 
     p {
-      padding-top: 38px;
+      padding-top: 25px;
       color: #515151;
       font-size: 16px;
     }
@@ -1238,7 +1306,7 @@ section.layanan-sec-1 {
 section.layanan-sec-2 {
   padding-top: 110px;
   background-color: #e9ecf2;
-  min-height: 710px;
+  min-height: 500px;
 
   .judul {
     font-size: 25px;
@@ -1302,19 +1370,21 @@ section.layanan-sec-3 {
   }
 
   .box-content {
+    padding-top: 20px;
+
     .title {
       text-transform: uppercase;
       color: #e81932;
       font-size: 16px;
       font-weight: bold;
-      font-family: @noto;
+      font-family: @lato;
     }
 
     .konten {
-      font-family: @noto;
+      padding-top: 40px;
+      font-family: @lato;
 
       h5 {
-        padding-top: 50px;
 
         text-transform: uppercase;
         font-size: 21px;
@@ -1323,9 +1393,10 @@ section.layanan-sec-3 {
       }
 
       p {
-        padding-top: 38px;
+        padding-top: 30px;
         color: #515151;
         font-size: 16px;
+        font-weight: 300;
       }
     }
   }
@@ -1347,7 +1418,6 @@ section.career-sec-2 {
 
         p {
           color: #e81932;
-
           font-size: 16px;
           font-weight: 700;
         }
@@ -1366,6 +1436,8 @@ section.career-sec-2 {
 
     .desc {
       padding-bottom: 30px;
+      color: #333333;
+      font-size: 13px;
 
       p {
         font-size: 14px;
@@ -1383,7 +1455,7 @@ section.career-sec-2 {
     }
 
     .heading-col {
-      background: #9a9a9a;
+      background: #082750;
       padding: 10px 0;
 
       p {

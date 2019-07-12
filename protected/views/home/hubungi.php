@@ -18,7 +18,7 @@
 <section class="hubungi-sec-1">
     <div class="prelative container">
         <div class="row">
-            <div class="col-md-30">
+            <div class="col-md-25">
                 <div class="merah">
                     <p>KANTOR PUSAT</p>
                 </div>
@@ -28,7 +28,7 @@
                 </div>
                 <div class="alamat">
                     <p>Jl. Margomulyo Permai blok AC no 10 Surabaya, Jawa Timur - Indonesia</p>
-                    <p class="teksmap">View on Google Map
+                    <p class="teksmap"><a href="#">View on Google Map</a>
                     </p>
                 </div>
                 <div class="kontak">
@@ -53,7 +53,7 @@
 
                 </div>
             </div>
-            <div class="col-md-30">
+            <div class="col-md-35">
                 <div class="row">
                     <div class="col-md-60">
                         <div class="box-content">
@@ -88,7 +88,7 @@
                                     <div class="form-row">
                                         <div class="form-group col-md-60">
                                             <label for="inputEmail4">Pesan</label>
-                                            <input type="text" class="form-control" id="" placeholder="">
+                                            <textarea class="form-control" rows="5" id="comment"></textarea>
                                         </div>
 
                                     </div>

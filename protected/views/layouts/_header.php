@@ -41,7 +41,7 @@
   <div class="prelative container mx-auto">
     <div class="row">
       <div class="col-md-20">
-        <div class="image"><img src="<?php echo $this->assetBaseurl; ?>logo-atas.png" alt=""></div>
+      <img href="<?php echo CHtml::normalizeUrl(array('/home/index', 'lang'=>Yii::app()->language)); ?>" src="<?php echo $this->assetBaseurl; ?>logo-atas.png" alt="" class="img img-fluid">
       </div>
       <div class="col-md-40">
         <div class="menu-block-top text-right align-middle">
@@ -92,7 +92,7 @@
       <div class="col-md-15 col-sm-15">
         <div class="lgo_web_headrs_wb">
           <a href="<?php echo CHtml::normalizeUrl(array('/home/index', 'lang'=>Yii::app()->language)); ?>">
-            <img src="<?php echo $this->assetBaseurl; ?>opms-logo.png" alt="" class="img img-fluid">
+            <img href="<?php echo CHtml::normalizeUrl(array('/home/index', 'lang'=>Yii::app()->language)); ?>" src="<?php echo $this->assetBaseurl; ?>logo-atas.png" alt="" class="img img-fluid">
           </a>
         </div>
       </div>
@@ -100,13 +100,12 @@
         <div class="text-right"> 
           <div class="menu-taffix">
             <ul class="list-inline d-inline">
-              <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/index', 'lang'=>Yii::app()->language)); ?>">Home</a></li>
-              <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/about', 'lang'=>Yii::app()->language)); ?>">Tentang Kami</a></li>
-              <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/produk', 'lang'=>Yii::app()->language)); ?>">Produk</a></li>
-              <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/quality', 'lang'=>Yii::app()->language)); ?>">Kualitas</a></li>
-              <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/blog', 'lang'=>Yii::app()->language)); ?>">Blog & Articles</a></li>
-              <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/kerjasama', 'lang'=>Yii::app()->language)); ?>">Kerjasama</a></li>
-              <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/kontak', 'lang'=>Yii::app()->language)); ?>">Hubungi Kami</a></li>
+            <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/index', 'lang'=>Yii::app()->language)); ?>">Home</a></li>
+            <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/about', 'lang'=>Yii::app()->language)); ?>">Tentang Kami</a></li>
+            <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/layanan', 'lang'=>Yii::app()->language)); ?>">layanan</a></li>
+            <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/hubinvest', 'lang'=>Yii::app()->language)); ?>">hubungan investor</a></li>
+            <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/career', 'lang'=>Yii::app()->language)); ?>">karir</a></li>
+            <li class="list-inline-item menu paling-kanan"><a href="<?php echo CHtml::normalizeUrl(array('/home/hubungi', 'lang'=>Yii::app()->language)); ?>">Hubungi Kami</a></li>
             </ul>
           </div>
         </div>

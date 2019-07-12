@@ -36,7 +36,7 @@
             </div>
             <div class="col-md-30">
                 <div class="box-content-right">
-                    <div class="image">                        <img src="<?php echo $this->assetBaseurl; ?>Rectangle 1.png" alt="" <div class="nama">
+                    <div class="image">                        <img src="<?php echo $this->assetBaseurl; ?>Rectangle 1.png" alt="" >
 </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@
     <div class="prelative container">
         <div class="row">
             <div class="col-md-60">
-                <div class="title">
+                <div class="title-atas">
                     <p>FILOSOFI PERUSAHAAN</p>
                 </div>
             </div>
@@ -124,7 +124,7 @@
             <div class="col-md-12">
                 <div class="box-content-dalam">
                     <div class="image">
-                        <img src="<?php echo $this->assetBaseurl; ?>Rectangle 4.png" alt="" <div class="nama">
+                        <img class="img img-fluid w-100" src="<?php echo $this->assetBaseurl; ?>Rectangle 4.png" alt="" >
                     </div>
                     <div class="nama">
                         <p>Ir. Sandojo Rustanto</p>
@@ -137,7 +137,7 @@
             <div class="col-md-12">
                 <div class="box-content-dalam">
                     <div class="image">
-                        <img src="<?php echo $this->assetBaseurl; ?>Rectangle 4.png" alt="" <div class="nama">
+                    <img class="img img-fluid w-100" src="<?php echo $this->assetBaseurl; ?>Rectangle 4.png" alt="" >
                     </div>
                     <div class="nama">
                         <p>Ir. Sandojo Rustanto</p>
@@ -150,7 +150,7 @@
             <div class="col-md-12">
                 <div class="box-content-dalam">
                     <div class="image">
-                        <img src="<?php echo $this->assetBaseurl; ?>Rectangle 4.png" alt="" <div class="nama">
+                    <img class="img img-fluid w-100" src="<?php echo $this->assetBaseurl; ?>Rectangle 4.png" alt="" >
                     </div>
                     <div class="nama">
                         <p>Ir. Sandojo Rustanto</p>
@@ -163,7 +163,7 @@
             <div class="col-md-12">
                 <div class="box-content-dalam">
                     <div class="image">
-                        <img src="<?php echo $this->assetBaseurl; ?>Rectangle 4.png" alt="" <div class="nama">
+                    <img class="img img-fluid w-100" src="<?php echo $this->assetBaseurl; ?>Rectangle 4.png" alt="" >
                     </div>
                     <div class="nama">
                         <p>Ir. Sandojo Rustanto</p>
@@ -176,7 +176,7 @@
             <div class="col-md-12">
                 <div class="box-content-dalam">
                     <div class="image">
-                        <img src="<?php echo $this->assetBaseurl; ?>Rectangle 4.png" alt="" <div class="nama">
+                    <img class="img img-fluid w-100" src="<?php echo $this->assetBaseurl; ?>Rectangle 4.png" alt="" >
                     </div>
                     <div class="nama">
                         <p>Ir. Sandojo Rustanto</p>
@@ -193,7 +193,7 @@
             <div class="col-md-12">
                 <div class="box-content-dalam">
                     <div class="image">
-                        <img src="<?php echo $this->assetBaseurl; ?>Rectangle 4.png" alt="" <div class="nama">
+                    <img class="img img-fluid w-100" src="<?php echo $this->assetBaseurl; ?>Rectangle 4.png" alt="" >
                     </div>
                     <div class="nama">
                         <p>Ir. Sandojo Rustanto</p>
@@ -206,7 +206,7 @@
             <div class="col-md-12">
                 <div class="box-content-dalam">
                     <div class="image">
-                        <img src="<?php echo $this->assetBaseurl; ?>Rectangle 4.png" alt="" <div class="nama">
+                    <img class="img img-fluid w-100" src="<?php echo $this->assetBaseurl; ?>Rectangle 4.png" alt="" >
                     </div>
                     <div class="nama">
                         <p>Ir. Sandojo Rustanto</p>
@@ -219,7 +219,7 @@
             <div class="col-md-12">
                 <div class="box-content-dalam">
                     <div class="image">
-                        <img src="<?php echo $this->assetBaseurl; ?>Rectangle 4.png" alt="" <div class="nama">
+                    <img class="img img-fluid w-100" src="<?php echo $this->assetBaseurl; ?>Rectangle 4.png" alt="" >
                     </div>
                     <div class="nama">
                         <p>Ir. Sandojo Rustanto</p>

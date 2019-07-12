@@ -119,8 +119,10 @@
 
             </div>
             <div class="button">
+            <button class="form-control button-red"><a href="<?php echo CHtml::normalizeUrl(array('/home/layanan', 'lang'=>Yii::app()->language)); ?>">PELAJARI LEBIH LANJUT</a></button>
 
             </div>
+
         </div>
     </div>
 </section>
@@ -190,6 +192,6 @@
 <section class="home-sec-5">
     <div class="prelative container">
         <p>PT. Optima Prima Metal Sinergi - Penjualan pembelian besi & kapal bekas berkualitas
-<br>Website design by Mark Design Indonesia.</p>
+<br>Website design by <a class="markdesign"href="#">Mark Design Indonesia.</a></p>
     </div>
 </section>
