@@ -4,10 +4,10 @@
                 <div class="teks">
                     <div class="row">
                         <div class="col-md-60">
-                            <h1 class="teks-cover">layanan</h1>
+                            <h1 class="teks-cover">hubungan inestor</h1>
                         </div>
                         <div class="col-md-60 ">
-                            <div class="teks">Sebuah wajah baru di dunia perdagangan besi bekas di Indonesia</div>
+                            <div class="teks">Lebih dekat dengan berbagai informasi terkini di PT. OPMS saat ini.</div>
                         </div>
                     </div>
                 </div>

@@ -33,7 +33,7 @@
                                 <p class="t1">PT. OPTIMA PRIMA METAL SINERGI</p>
                                 <p class="t2">Perusahaan jual beli besi dan kapal bekas terpercaya - <b><i>Terpercaya!</i></b></p>
                                 <p class="t3">melayani pasokan besi di surabaya, jakarta, semarang, hingga seluruh pelosok di indonesia.</p>
-                                <button class="form-control">PELAJARI LEBIH LANJUT</button>
+                                <button class="form-control button-red"><a href="<?php echo CHtml::normalizeUrl(array('/home/about', 'lang'=>Yii::app()->language)); ?>">PELAJARI LEBIH LANJUT</a></button>
                             </div>
                         </div>
                     </div>
