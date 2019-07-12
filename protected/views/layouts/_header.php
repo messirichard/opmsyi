@@ -40,24 +40,34 @@
 <header class="head <?php if ($active_menu_pg != 'home/index'): ?>insides-head<?php endif ?>">
   <div class="prelative container mx-auto">
     <div class="row">
-      <div class="col-md-30">
-        <div class="image"><img src="<?php echo $this->assetBaseurl; ?>opms-logo.png" alt=""></div>
+      <div class="col-md-20">
+        <div class="image"><img src="<?php echo $this->assetBaseurl; ?>logo-atas.png" alt=""></div>
       </div>
-      <div class="col-md-30">
-        <div class="menu-block-top">
-          <div class="click">
-            <p>opms HOTLINE<span><img src="<?php echo $this->assetBaseurl; ?>wa-atas.png" alt=""></span><a href="#">0812 3500 9900</a></p>
+      <div class="col-md-40">
+        <div class="menu-block-top text-right align-middle">
+          <div class="d-inline-block mx-2 calls_info align-middle">
+            OPMS HOTLINE
+            <img src="<?php echo $this->assetBaseurl; ?>wa-atas.png" alt="" class="d-inline px-2 img img-fluid">
+            <a href="#"><b>0812 3500 9900</b></a>
           </div>
+          <div class="separate_line_white d-inline-block align-middle"></div>
+          <div class="languages d-inline-block align-middle">
+            <ul class="m-0 list-unstyled">
+              <li class="active"><a href="#"rel="noopener noreferrer">INDONESIA</a></li>
+              <li class="separator"></li>
+              <li class="kanan-eng"><a href="#"rel="noopener noreferrer">ENGLISH</a></li>
+            </ul>
+          </div>
+
         </div>
         <div class="menu-block-bottom">
-          <ul class="list-inline">
+          <ul class="list-inline menuuu">
             <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/index', 'lang'=>Yii::app()->language)); ?>">Home</a></li>
             <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/about', 'lang'=>Yii::app()->language)); ?>">Tentang Kami</a></li>
-            <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/produk', 'lang'=>Yii::app()->language)); ?>">Produk</a></li>
-            <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/quality', 'lang'=>Yii::app()->language)); ?>">Kualitas</a></li>
-            <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/blog', 'lang'=>Yii::app()->language)); ?>">Blog & Articles</a></li>
-            <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/kerjasama', 'lang'=>Yii::app()->language)); ?>">Kerjasama</a></li>
-            <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/kontak', 'lang'=>Yii::app()->language)); ?>">Hubungi Kami</a></li>
+            <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/produk', 'lang'=>Yii::app()->language)); ?>">layanan</a></li>
+            <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/quality', 'lang'=>Yii::app()->language)); ?>">hubungan investor</a></li>
+            <li class="list-inline-item menu"><a href="<?php echo CHtml::normalizeUrl(array('/home/blog', 'lang'=>Yii::app()->language)); ?>">karir</a></li>
+            <li class="list-inline-item menu paling-kanan"><a href="<?php echo CHtml::normalizeUrl(array('/home/kontak', 'lang'=>Yii::app()->language)); ?>">Hubungi Kami</a></li>
           </ul>
         </div>
       </div>
