@@ -45,19 +45,20 @@
                     </div>
 
                     <div class="col-md-30">
-                        <div class="box-content"></div>
-                        <div class="image"><img class="img img-fluid w-100" src="<?php echo $this->assetBaseurl; ?>pink.png" alt=""></div>
+                        <div class="box-content">
+                            <div class="image"><img  class="img img-fluid w-100" src="<?php echo $this->assetBaseurl; ?>pink.png" alt=""></div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="row">
                     <div class="col-md-30">
-                        <div class="box-content"></div>
-                        <div class="image"><img class="img img-fluid w-100" src="<?php echo $this->assetBaseurl; ?>pink.png" alt=""></div>
+                        <div class="box-content">
+                            <div class="image"><img  class="img img-fluid w-100" src="<?php echo $this->assetBaseurl; ?>pink.png" alt=""></div>
+                        </div>
                     </div>
                     <div class="col-md-30">
-                        <div class="box-content"></div>
-                        <div class="image"><img  class="img img-fluid w-100"src="<?php echo $this->assetBaseurl; ?>pink.png" alt=""></div>
+                        <div class="box-content">
+                            <div class="image"><img  class="img img-fluid w-100" src="<?php echo $this->assetBaseurl; ?>pink.png" alt=""></div>
+                        </div>
                     </div>
                 </div>
                 <!-- <div class="box-content-right">
@@ -72,11 +73,12 @@
     <div class="prelative container">
         <div class="row">
             <div class="col-md-60">
+                
                 <div class="subjudul">
                     <p>ANEKA RAGAM BAHAN BAKU BESI BEKAS DIANTARANYA:</p>
                 </div>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12 col-30">
                 <div class="box-content">
                     <div class="image"><img src="<?php echo $this->assetBaseurl; ?>img1.png" alt=""></div>
                     <div class="title">
@@ -87,9 +89,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12 col-30">
                 <div class="box-content">
-                    <div class="image"><img src="<?php echo $this->assetBaseurl; ?>img2.png" alt=""></div>
+                <div class="image"><img src="<?php echo $this->assetBaseurl; ?>img2.png" alt=""></div>
                     <div class="title">
                         <p>Brass</p>
                     </div>
@@ -98,9 +100,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12 col-30">
                 <div class="box-content">
-                    <div class="image"><img src="<?php echo $this->assetBaseurl; ?>img3.png" alt=""></div>
+                <div class="image"><img src="<?php echo $this->assetBaseurl; ?>img3.png" alt=""></div>
                     <div class="title">
                         <p>Cast Iron</p>
                     </div>
@@ -109,9 +111,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12 col-30">
                 <div class="box-content">
-                    <div class="image"><img src="<?php echo $this->assetBaseurl; ?>img4.png" alt=""></div>
+                <div class="image"><img src="<?php echo $this->assetBaseurl; ?>img4.png" alt=""></div>
                     <div class="title">
                         <p>Iron Scrap</p>
                     </div>
@@ -120,9 +122,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12 col-30">
                 <div class="box-content">
-                    <div class="image"><img src="<?php echo $this->assetBaseurl; ?>img5.png" alt=""></div>
+                <div class="image"><img src="<?php echo $this->assetBaseurl; ?>img5.png" alt=""></div>
                     <div class="title">
                         <p>Ship Spareparts</p>
                     </div>
@@ -132,9 +134,8 @@
                 </div>
 
             </div>
-            <div class="button">
 
-            </div>
+
         </div>
     </div>
 </section>

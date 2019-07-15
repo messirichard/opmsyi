@@ -121,7 +121,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
+        <div class="col-md-12 col-30">
                 <div class="box-content-dalam">
                     <div class="image">
                         <img class="img img-fluid w-100" src="<?php echo $this->assetBaseurl; ?>Rectangle 4.png" alt="" >
@@ -134,7 +134,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12 col-30">
                 <div class="box-content-dalam">
                     <div class="image">
                     <img class="img img-fluid w-100" src="<?php echo $this->assetBaseurl; ?>Rectangle 4.png" alt="" >
@@ -147,7 +147,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12 col-30">
                 <div class="box-content-dalam">
                     <div class="image">
                     <img class="img img-fluid w-100" src="<?php echo $this->assetBaseurl; ?>Rectangle 4.png" alt="" >
@@ -160,7 +160,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12 col-30">
                 <div class="box-content-dalam">
                     <div class="image">
                     <img class="img img-fluid w-100" src="<?php echo $this->assetBaseurl; ?>Rectangle 4.png" alt="" >
@@ -173,7 +173,46 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12 col-30">
+                <div class="box-content-dalam">
+                    <div class="image">
+                    <img class="img img-fluid w-100" src="<?php echo $this->assetBaseurl; ?>Rectangle 4.png" alt="" >
+                    </div>
+                    <div class="nama">
+                        <p>Ir. Sandojo Rustanto</p>
+                    </div>
+                    <div class="jabatan">
+                        <p>Komisaris Utama</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-30">
+                <div class="box-content-dalam">
+                    <div class="image">
+                    <img class="img img-fluid w-100" src="<?php echo $this->assetBaseurl; ?>Rectangle 4.png" alt="" >
+                    </div>
+                    <div class="nama">
+                        <p>Ir. Sandojo Rustanto</p>
+                    </div>
+                    <div class="jabatan">
+                        <p>Komisaris Utama</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-30">
+                <div class="box-content-dalam">
+                    <div class="image">
+                    <img class="img img-fluid w-100" src="<?php echo $this->assetBaseurl; ?>Rectangle 4.png" alt="" >
+                    </div>
+                    <div class="nama">
+                        <p>Ir. Sandojo Rustanto</p>
+                    </div>
+                    <div class="jabatan">
+                        <p>Komisaris Utama</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-30">
                 <div class="box-content-dalam">
                     <div class="image">
                     <img class="img img-fluid w-100" src="<?php echo $this->assetBaseurl; ?>Rectangle 4.png" alt="" >
@@ -189,47 +228,6 @@
 
         </div>
 
-        <div class="row">
-            <div class="col-md-12">
-                <div class="box-content-dalam">
-                    <div class="image">
-                    <img class="img img-fluid w-100" src="<?php echo $this->assetBaseurl; ?>Rectangle 4.png" alt="" >
-                    </div>
-                    <div class="nama">
-                        <p>Ir. Sandojo Rustanto</p>
-                    </div>
-                    <div class="jabatan">
-                        <p>Komisaris Utama</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12">
-                <div class="box-content-dalam">
-                    <div class="image">
-                    <img class="img img-fluid w-100" src="<?php echo $this->assetBaseurl; ?>Rectangle 4.png" alt="" >
-                    </div>
-                    <div class="nama">
-                        <p>Ir. Sandojo Rustanto</p>
-                    </div>
-                    <div class="jabatan">
-                        <p>Komisaris Utama</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12">
-                <div class="box-content-dalam">
-                    <div class="image">
-                    <img class="img img-fluid w-100" src="<?php echo $this->assetBaseurl; ?>Rectangle 4.png" alt="" >
-                    </div>
-                    <div class="nama">
-                        <p>Ir. Sandojo Rustanto</p>
-                    </div>
-                    <div class="jabatan">
-                        <p>Komisaris Utama</p>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 </section>
 

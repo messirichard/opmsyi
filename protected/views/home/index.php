@@ -62,7 +62,7 @@
                     <p>ANEKA RAGAM BAHAN BAKU BESI BEKAS DIANTARANYA:</p>
                 </div>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12 col-30">
                 <div class="box-content">
                     <div class="image"><img src="<?php echo $this->assetBaseurl; ?>img1.png" alt=""></div>
                     <div class="title">
@@ -73,7 +73,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12 col-30">
                 <div class="box-content">
                 <div class="image"><img src="<?php echo $this->assetBaseurl; ?>img2.png" alt=""></div>
                     <div class="title">
@@ -84,7 +84,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12 col-30">
                 <div class="box-content">
                 <div class="image"><img src="<?php echo $this->assetBaseurl; ?>img3.png" alt=""></div>
                     <div class="title">
@@ -95,7 +95,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12 col-30">
                 <div class="box-content">
                 <div class="image"><img src="<?php echo $this->assetBaseurl; ?>img4.png" alt=""></div>
                     <div class="title">
@@ -106,7 +106,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12 col-30">
                 <div class="box-content">
                 <div class="image"><img src="<?php echo $this->assetBaseurl; ?>img5.png" alt=""></div>
                     <div class="title">
@@ -183,7 +183,7 @@
             <div class="info">
                 <p>Jl Margomulyo Permai Blok AC no 10, Surabaya.</p>
 <p>Telp. (031) 7495673  Fax. (031) 7490073</p>
-<p><b>Whatsapp Hotline. 0851 0212 3698<b></p>
+<p><b>Whatsapp Hotline. 0851 0212 3698</b></p>
 <p>Email. info@opms.co.id</p>
         </div>
     </div>

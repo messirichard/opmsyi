@@ -28,7 +28,7 @@
                     <p>Sales Executive
                     </p>
                 </div>
-                <div class="row w-100 pb-5">
+                <div class="row pb-5">
                     <div class="col-md-20">
                         <div class="desc pr-3"><p>It’s our diversified advisory experience that we want you to help us deliver and evolve. In doing so you’ll not just be at the forefront of the industry, you’ll be helping to drive its direction. We have a fantastic opportunity available for a switched on Client Adviser (Senior) in our Business Services division.</p>
                         </div>
@@ -71,8 +71,6 @@
                         </div>
                     </div>
                 </div>
-                    <div class="clear"></div>
 
     </div>
-    <div class="pb-5"></div>
 </section>
