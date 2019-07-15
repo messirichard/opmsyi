@@ -192,6 +192,6 @@
 <section class="home-sec-5">
     <div class="prelative container">
         <p>PT. Optima Prima Metal Sinergi - Penjualan pembelian besi & kapal bekas berkualitas
-<br>Website design by <a class="markdesign"href="#">Mark Design Indonesia.</a></p>
+<br>Website design by <a class="markdesign"href="https://markdesign.net">Mark Design Indonesia.</a></p>
     </div>
 </section>
